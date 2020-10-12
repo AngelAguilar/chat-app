@@ -7,6 +7,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
 
         IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "Continue"
+        IQKeyboardManager.shared.disabledDistanceHandlingClasses.append(ConversationViewController.self)
+        FirebaseApp.configure()
         return true
     }
 

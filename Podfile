@@ -15,7 +15,8 @@ target 'ChatApp' do
   pod 'Firebase/Crashlytics'
   pod 'IQKeyboardManagerSwift'
   pod 'lottie-ios'
-    
+  pod 'MessageKit'
+  
   target 'ChatAppTests' do
     inherit! :search_paths
     # Pods for testing

@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="45" id="SDh-y0-SgN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZJ-bw-0gQ">
                                 <rect key="frame" x="20" y="366" width="335" height="45"/>
@@ -47,7 +47,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="frC-y5-9UH"/>
                                 </constraints>
-                                <state key="normal" title="Forgot Password"/>
+                                <state key="normal" title="Reset Password"/>
                                 <connections>
                                     <action selector="didTapBtnPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p2Y-Fo-LBu"/>
                                 </connections>

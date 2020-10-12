@@ -50,5 +50,11 @@ extension View where Self: UIViewController {
         }
         return false
     }
+    
+    func showErrorAlert(error: String){
+        let alertController = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
 }
 

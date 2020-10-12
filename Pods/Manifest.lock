@@ -86,9 +86,14 @@ PODS:
   - GoogleUtilities/UserDefaults (6.7.2):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.4.0)
+  - InputBarAccessoryView (5.2.1):
+    - InputBarAccessoryView/Core (= 5.2.1)
+  - InputBarAccessoryView/Core (5.2.1)
   - IQKeyboardManagerSwift (6.5.6)
   - leveldb-library (1.22)
   - lottie-ios (3.1.8)
+  - MessageKit (3.4.2):
+    - InputBarAccessoryView (~> 5.2.1)
   - nanopb (1.30905.0):
     - nanopb/decode (= 1.30905.0)
     - nanopb/encode (= 1.30905.0)
@@ -105,6 +110,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - IQKeyboardManagerSwift
   - lottie-ios
+  - MessageKit
 
 SPEC REPOS:
   trunk:
@@ -121,9 +127,11 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleUtilities
     - GTMSessionFetcher
+    - InputBarAccessoryView
     - IQKeyboardManagerSwift
     - leveldb-library
     - lottie-ios
+    - MessageKit
     - nanopb
     - PromisesObjC
 
@@ -141,12 +149,14 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  InputBarAccessoryView: 39a7ed22727baf3b8550ecdf6c8a4d28b2c6aa91
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  MessageKit: 5ff0908bce5a7b6e11bd0b60e13a33e03697d161
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
 
-PODFILE CHECKSUM: 5193f1af887e4144ece37633095a69ae4e9f1ce3
+PODFILE CHECKSUM: fad4d69640da5b613d70cfbd4f11622e9fde3389
 
 COCOAPODS: 1.9.1

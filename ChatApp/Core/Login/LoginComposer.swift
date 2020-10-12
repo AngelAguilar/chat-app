@@ -10,11 +10,12 @@ import UIKit
 
 final class LoginComposer {
     static func composeLogin() -> LoginViewController {
+        let firebaseManager = FirebaseManagerImpl()
+        let viewModel = LoginViewModel(firebaseManager: firebaseManager)
         let storyboard = UIStoryboard(name: "Login", bundle: nil)
         let loginViewController = storyboard.instantiateInitialViewController() as! LoginViewController
-        let viewModel = LoginViewModel()
-        viewModel.view = loginViewController
         loginViewController.viewModel = viewModel
+        viewModel.view = loginViewController
         return loginViewController
     }
 }
